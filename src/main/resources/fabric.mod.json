@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "terraria-inspired-mod",
+  "version": "${version}",
+  "name": "Terraria Inspired Mod",
+  "description": "Um mod Minecraft Fabric 1.20.1 inspirado em Terraria com 6 bosses únicos, armas, armaduras e acessórios poderosos!",
+  "authors": [
+    "danielamoraes26-png"
+  ],
+  "contact": {
+    "homepage": "https://github.com/danielamoraes26-png/terraria-inspired-mod",
+    "sources": "https://github.com/danielamoraes26-png/terraria-inspired-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.terrariainspired.TerriaraInspiredMod"
+    ],
+    "client": [
+      "com.terrariainspired.client.TerriaraInspiredModClient"
+    ]
+  },
+  "mixins": [
+    "terraria-inspired-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
