@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria-inspired-mod:stone_slime_essence"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "terraria-inspired-mod:stone_slime_summoner",
+    "count": 1
+  }
+}
